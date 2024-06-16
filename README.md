@@ -60,10 +60,14 @@ This is a simple blog application built with Laravel, offering features such as 
 
 ### Running Tests
 - **Unit Tests:** Run the following command to execute unit tests.
-  ```bash
-  - **To run Test for creating posts** php artisan test --filter PostsTest
-  - **To run Test for commenting on posts** php artisan test --filter CommentsTest
-  ```
+  - **To run Test for creating posts** 
+      ```bash
+      - php artisan test --filter PostsTest
+      ```
+  - **To run Test for commenting on posts**
+     ```bash
+      - php artisan test --filter CommentsTest
+      ```
 
 ### API Endpoints (Bonus)
 - **List Posts:** `GET /api/posts`
