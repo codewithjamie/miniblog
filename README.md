@@ -74,7 +74,3 @@ This is a simple blog application built with Laravel, offering features such as 
 - **Specific Post:** `GET /api/posts/id`
 - **Create Post:** `POST /api/posts`
 - **Comment on Post:** `POST /api/posts/{id}/comments`
-
-## Database Setup
-- Migration files included for setting up necessary tables.
-- Seeders provided to populate the database with sample data.
